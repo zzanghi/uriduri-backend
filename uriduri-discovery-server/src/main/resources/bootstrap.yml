@@ -3,7 +3,8 @@ spring:
     name: uriduri-discovery-server
   cloud:
     config:
+      name: uriduri-discovery-server
       uri: http://localhost:9901
       fail-fast: true
+#      username: user      
 #      password: ${CONFIG_SERVICE_PASSWORD:1234}
-#      username: user

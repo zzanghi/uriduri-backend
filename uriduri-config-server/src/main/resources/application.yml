@@ -9,19 +9,21 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     
-eureka:
-  instance:
-    leaseRenewalIntervalInSeconds: 10
-    statusPageUrlPath: /admin/info
-    healthCheckUrlPath: /admin/health
+#eureka:
+#  instance:
+#    leaseRenewalIntervalInSeconds: 10
+#    statusPageUrlPath: /admin/info
+#    healthCheckUrlPath: /admin/health
 
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/zzanghi/uriduri-backend/tree/master/uriduri-config
-#          basedir: target/config
+          uri: https://github.com/zzanghi/uriduri-backend
+          username: zzanghi21@gmail.com
+          password: Wodudtjwls0924!!
+          search-paths: uriduri-config/
 
 ---
 spring:
