@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 9901
 
 management:
   context-path: /admin
@@ -20,8 +20,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/spring-cloud-samples/config-repo
-          basedir: target/config
+          uri: https://github.com/zzanghi/uriduri-backend/tree/master/uriduri-config
+#          basedir: target/config
 
 ---
 spring:

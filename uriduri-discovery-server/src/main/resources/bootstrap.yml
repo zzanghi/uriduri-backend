@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: uriduri-discovery-server
+  cloud:
+    config:
+      uri: http://localhost:9901
+      fail-fast: true
+#      password: ${CONFIG_SERVICE_PASSWORD:1234}
+#      username: user
