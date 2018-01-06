@@ -17,6 +17,8 @@
   	<module>uriduri-discovery-server</module>
   	<module>uriduri-gateway-server</module>
   </modules>
+  
+  
 	<dependencyManagement>
 	    <dependencies>
 	        <dependency>
