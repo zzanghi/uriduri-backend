@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: uriduri-gateway-server
+  cloud:
+    config:
+      name: uriduri-gateway-server
+      uri: http://localhost:9901
+      fail-fast: true
+#      username: user      
+#      password: ${CONFIG_SERVICE_PASSWORD:1234}
