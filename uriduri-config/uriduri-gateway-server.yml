@@ -1,10 +1,7 @@
 server:
   port: 9903
 
-
 eureka:
-#  instance:
-#    virtual-host-name: samplecassandra.vip
   client:
     enabled: true
     serviceUrl:
