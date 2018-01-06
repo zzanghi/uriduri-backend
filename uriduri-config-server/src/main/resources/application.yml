@@ -21,8 +21,6 @@ spring:
       server:
         git:
           uri: https://github.com/zzanghi/uriduri-backend
-          username: zzanghi21@gmail.com
-          password: Wodudtjwls0924!!
           search-paths: uriduri-config/
 
 ---
